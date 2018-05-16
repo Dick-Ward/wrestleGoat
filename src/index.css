@@ -2,4 +2,20 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: blue;
+}
+
+.wrestlerCard {
+  border: solid;
+  border-radius: 20px;
+  max-width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 3px 7px;
+  background-color: white;
+}
+
+.wrestlerForm {
+  background-color: white;
+  padding-left: 100px
 }
