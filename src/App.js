@@ -11,10 +11,16 @@ class App extends Component {
 
 
   render() {
+    console.log(this.state)
+
+    const createWrestlerObject = (wrestlerObjectEric) => {
+
+      this.setState({wrestlers: [...this.state.wrestlers, wrestlerObjectEric]})
+    }
 
     return (
       <div>
-      <WrestleForm />
+      <WrestleForm createWrestlerObject={createWrestlerObject} />
       <WrestlerList wrestlers={this.state.wrestlers}/>
       </div>
     );
@@ -30,3 +36,6 @@ App.defaultProps = {
   }
 
 export default App;
+
+
+// function that adds a wrestler to the list

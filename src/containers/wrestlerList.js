@@ -9,6 +9,7 @@ class WrestlerList extends React.Component{
     })
     return(
       <div>{wrestler}</div>
+    
     )
   }
 }

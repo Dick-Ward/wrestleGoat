@@ -10,7 +10,7 @@ const wrestlers = [
   {name: "Stone Cold Steve Austin",
    pro: "Amazing Brawler and Beer Drinker",
    con: "Unsuccessful Heel Turn",
-   goat: false},
+   goat: true},
   {name: "Shawn Michaels",
    pro: "Sells Like a MF",
    con: "Lost his Smile",
