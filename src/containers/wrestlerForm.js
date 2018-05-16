@@ -8,7 +8,7 @@ class WrestleForm extends React.Component {
    <form>
    <label>Name: <input name="name" type="text" /></label>
    <br/>
-   <label>Pro: <input name="pro" type="text" /></label>
+   <label>Pro:   <input name="pro" type="text" /></label>
    <br/>
 
    <label>Con: <input name="con" type="text" /></label>

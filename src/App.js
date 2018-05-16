@@ -6,7 +6,7 @@ import WrestleForm from "./containers/wrestlerForm"
 class App extends Component {
 
    state = {
-    wrestlers: []
+    wrestlers: this.props.wrestlers
   }
 
 
@@ -20,10 +20,13 @@ class App extends Component {
     );
   }
 
-  componentDidMount(){
-    this.setState({wrestlers})
-  }
+
 
 }
+
+
+App.defaultProps = {
+    wrestlers
+  }
 
 export default App;
